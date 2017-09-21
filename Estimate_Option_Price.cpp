@@ -34,7 +34,7 @@ main() {
 
    // Drift term.
    mu = r - log(cosh(sigma*sqrtdt)) / dt;
-
+   mu = (r - sigma*sigma/2);
    // Initial stock price.
    S0 = 100.0;
 
